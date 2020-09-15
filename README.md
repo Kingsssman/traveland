@@ -48,6 +48,7 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
     - Title (plain text, Required)
     - Description (plain text, Required)
     - Price (dollars, Required)
+    - Tour Country (country)
 
 ## Structural requirements (SR)
 
