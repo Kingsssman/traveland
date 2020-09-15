@@ -19,9 +19,9 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 -   Application User (User)
 
--   List Item (tour)
+-   List Product (Tour)
 
--   List of items (tours)
+-   List of Products (tours)
 
 ## Use cases (UC)
 
