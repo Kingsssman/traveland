@@ -1,5 +1,18 @@
 # Traveland
 
+![](https://img.shields.io/badge/progress-developing-green)
+![](https://img.shields.io/badge/version-0.0-green)
+
+![](https://img.shields.io/badge/language-JavaScript-yellow)
+![](https://img.shields.io/badge/version-ES6+-yellow)
+![](https://img.shields.io/badge/html-HTML5-red)
+![](https://img.shields.io/badge/css-CSS3-blue)
+
+![](https://img.shields.io/badge/React-js-blue)
+![](https://img.shields.io/badge/Node-js-green)
+![](https://img.shields.io/badge/Express-js-orange)
+![](https://img.shields.io/badge/Mongo-DB-green)
+
 Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Travel Platform Website.
 
 ## Glossary:
