@@ -12,3 +12,8 @@ yarn-debug.kog*
 yarn-error.log*
 
 .vscode
+
+# Images from uploads
+
+uploads/*.jpg
+uploads/*.img
