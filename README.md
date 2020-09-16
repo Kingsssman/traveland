@@ -1,3 +1,5 @@
+Developed by Evgeniy Davydovskiy 722401
+
 # Traveland
 
 ![](https://img.shields.io/badge/progress-developing-green)
