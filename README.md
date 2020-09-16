@@ -27,9 +27,9 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 ## Use cases (UC)
 
-1. User can SignIn / SignOut by using email and password
+✅ 1. User can SignIn / SignOut by using email and password
 
-2. User can add own Tour Product (fill with title, image, description, price, country)
+✅ 2. User can add own Tour Product (fill with title, image, description, price, country)
 
 3. Ability to view all available Tour Products for Unregistered Users
 
