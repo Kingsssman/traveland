@@ -13,7 +13,7 @@ yarn-error.log*
 
 .vscode
 
-# Images from uploads
+# # Images from uploads
 
-uploads/*.jpg
-uploads/*.img
+# uploads/*.jpg
+# uploads/*.img
