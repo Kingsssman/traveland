@@ -29,15 +29,15 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 1. User can SignIn / SignOut by using email and password
 
-2. User can perform CRUD operations with own tours
+2. User can add own Tour Product (fill with title, image, description, price, country)
 
-3. Ability to view all available tours for unregistered users
+3. Ability to view all available Tour Products for Unregistered Users
 
-4. Get Detailed info about tour
+4. Get Detailed info about Tour Product
 
-5. Add tour to Cart Page with CRUD operations
+5. Add tour to Cart Page
 
-6. Ability to buy tour (only for registered users)
+6. Ability to buy Tour Product (only for registered users)
 
 ## Functional Requirements
 
