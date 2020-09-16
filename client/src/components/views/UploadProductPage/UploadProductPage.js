@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Typography, Button, Form, message, Input, Icon } from 'antd';
 import Axios from 'axios';
-//Add file upload component
+import FileUpload from '../../utils/FileUpload/FileUpload';
 
 const { Title } = Typography;
 const { TextArea } = Input;
@@ -40,7 +40,9 @@ function UploadProductPage(props) {
         setContinentValue(event.currentTarget.value);
     };
 
-    //add func for images
+    const updateImages = newImages => {
+        setImages(newImages);
+    };
 
     const onSubmit = event => {
         event.preventDefault();
@@ -82,7 +84,8 @@ function UploadProductPage(props) {
 
             <Form onSubmit={onSubmit}>
                 {}
-                //add file upload component!!!
+                <FileUpload refreshFunction={updateImages} />
+
                 <br />
                 <br />
                 <label>Title</label>
