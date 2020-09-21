@@ -1,3 +1,5 @@
+Developed by Evgeniy Davydovskiy 722401
+
 # Traveland
 
 ![](https://img.shields.io/badge/progress-developing-green)
@@ -19,23 +21,21 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 -   Application User (User)
 
--   List Product (Tour)
+-   List Product (Tour Product)
 
--   List of Products (tours)
+-   List of Products (Tour Products)
 
 ## Use cases (UC)
 
-1. User can SignIn / SignOut by using email and password
+✅ 1. User can SignIn / SignOut by using email and password
 
-2. User can perform CRUD operations with own tours
+✅ 2. User can add own Tour Product (fill with title, image, description, price, country)
 
-3. Ability to view all available tours for unregistered users
+3. Ability to view all available Tour Products for Unregistered Users
 
-4. Get Detailed info about tour
+4. Get Detailed info about Tour Product
 
-5. Add tour to Cart Page with CRUD operations
-
-6. Ability to buy tour (only for registered users)
+5. Ability to buy Tour Product (only for registered users)
 
 ## Functional Requirements
 
