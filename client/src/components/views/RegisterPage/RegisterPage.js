@@ -99,7 +99,7 @@ function RegisterPage(props) {
                 } = props;
                 return (
                     <div className="register-container" style={style.app}>
-                        <h2>Sign up</h2>
+                        <h2 style={{ color: 'white' }}>Sign up</h2>
                         <div
                             style={{
                                 position: 'absolute',
@@ -241,7 +241,13 @@ function RegisterPage(props) {
                                 <Button
                                     onClick={handleSubmit}
                                     type="primary"
-                                    disabled={isSubmitting}>
+                                    disabled={isSubmitting}
+                                    style={{
+                                        backgroundColor: '#ffeb3b',
+                                        border: 'none',
+                                        color: 'black',
+                                        width: '100%',
+                                    }}>
                                     Submit
                                 </Button>
                             </Form.Item>

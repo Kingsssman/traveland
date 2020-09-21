@@ -111,7 +111,9 @@ function LoginPage(props) {
                                 width: '400px',
                                 background: 'rgba(0, 0, 0, 0.452)',
                             }}></div>
-                        <Title level={2}>Log In</Title>
+                        <Title level={2} style={{ color: 'white' }}>
+                            Log In
+                        </Title>
                         <form
                             onSubmit={handleSubmit}
                             style={{ width: '350px' }}>
