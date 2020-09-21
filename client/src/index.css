@@ -1,39 +1,115 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px;
-  line-height: 1.5;
-  color: #24292e;
-  background-color: #fff;
-}
-
-.app {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
 }
 
 input.error {
-  border-color: red;
+    border-color: red;
 }
 
-
 .input-feedback {
-  color: red;
-  height: 5px;
-  margin-top: -12px;
+    color: red;
+    height: 5px;
+    margin-top: -12px;
+}
+
+#tours-overview {
+    background: url(../src/assets/1-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+#tours-overview h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.452);
+    font-size: 36px;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.filter-box,
+.search-box {
+    position: absolute;
+    top: 70vh;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.filter-field,
+.search-field {
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    width: 30%;
+    margin-right: 8px;
+}
+
+.filter-btn,
+.search-btn {
+    height: 50px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-btn:active,
+.filter-btn:hover,
+.search-btn:active,
+.search-btn:hover {
+    outline: none;
+}
+
+.search-box {
+    top: 18%;
+}
+
+.login-container {
+    background: url(../src/assets/2-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.register-container {
+    background: url(../src/assets/2-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

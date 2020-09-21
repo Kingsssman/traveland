@@ -8,6 +8,16 @@ import { useDispatch } from 'react-redux';
 
 const { Title } = Typography;
 
+const style = {
+    app: {
+        flexDirection: 'column',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+    },
+};
+
 function LoginPage(props) {
     const dispatch = useDispatch();
     const rememberMeChecked = localStorage.getItem('rememberMe') ? true : false;
@@ -90,7 +100,17 @@ function LoginPage(props) {
                     handleReset,
                 } = props;
                 return (
-                    <div className="app">
+                    <div className="login-container" style={style.app}>
+                        <div
+                            style={{
+                                position: 'absolute',
+                                top: '50%',
+                                left: '50%',
+                                transform: 'translate(-50%, -50%)',
+                                height: '500px',
+                                width: '400px',
+                                background: 'rgba(0, 0, 0, 0.452)',
+                            }}></div>
                         <Title level={2}>Log In</Title>
                         <form
                             onSubmit={handleSubmit}
@@ -170,13 +190,17 @@ function LoginPage(props) {
                                         type="primary"
                                         htmlType="submit"
                                         className="login-form-button"
-                                        style={{ minWidth: '100%' }}
+                                        style={{
+                                            minWidth: '100%',
+                                            backgroundColor: '#ffeb3b',
+                                            border: 'none',
+                                            color: 'black',
+                                        }}
                                         disabled={isSubmitting}
                                         onSubmit={handleSubmit}>
                                         Log in
                                     </Button>
                                 </div>
-                                Or <a href="/register">register now!</a>
                             </Form.Item>
                         </form>
                     </div>
