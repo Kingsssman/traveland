@@ -39,7 +39,7 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 6. Get Detailed info about Tour Product
 
-7. Ability to buy Tour Product (only for registered users)
+7. Ability to buy Tour Product
 
 ## Functional Requirements
 
