@@ -35,7 +35,7 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 ✅ 4. Search available Tour Product for Unregistered Users
 
-✅ 5. Filter Tour Product by Price and Locatiob for Unregistered Users
+✅ 5. Filter Tour Product by Price and Location for Unregistered Users
 
 6. Get Detailed info about Tour Product
 
