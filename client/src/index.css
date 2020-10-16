@@ -67,12 +67,13 @@ input.error {
 .filter-field,
 .search-field {
     height: 50px;
-    padding: 10px;
+    padding: 10px 30px;
     border: none;
     border-radius: 25px;
     outline: none;
     width: 30%;
     margin-right: 8px;
+    font-family: inherit;
 }
 
 .filter-btn,
@@ -112,4 +113,36 @@ input.error {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* Sets the dimensions of the entire scrollbar */
+html::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+/* The grabbable scrollbar button  */
+html::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#ff8a00),
+        to(#e52e71)
+    );
+    background: linear-gradient(180deg, #ff8a00, #e52e71);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+        inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* The vertical scrollbar background */
+html::-webkit-scrollbar-track {
+    background: linear-gradient(
+        90deg,
+        #201c29,
+        #201c29 1px,
+        #100e17 0,
+        #100e17
+    );
 }

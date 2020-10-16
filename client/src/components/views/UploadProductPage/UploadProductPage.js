@@ -7,13 +7,13 @@ const { Title } = Typography;
 const { TextArea } = Input;
 
 const Continents = [
-    { key: 1, value: 'Africa' },
-    { key: 2, value: 'Europe' },
-    { key: 3, value: 'Asia' },
-    { key: 4, value: 'North America' },
-    { key: 5, value: 'South America' },
-    { key: 6, value: 'Australia' },
-    { key: 7, value: 'Antarctica' },
+    { key: 1, value: 'China' },
+    { key: 2, value: 'Canada' },
+    { key: 3, value: 'England' },
+    { key: 4, value: 'Greece' },
+    { key: 5, value: 'France' },
+    { key: 6, value: 'Italy' },
+    { key: 7, value: 'Spain' },
 ];
 
 function UploadProductPage(props) {
@@ -78,8 +78,16 @@ function UploadProductPage(props) {
 
     return (
         <div style={{ maxWidth: '700px', margin: '2rem auto' }}>
-            <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                <Title level={2}> Upload Travel Product</Title>
+            <div
+                style={{
+                    textAlign: 'center',
+                    marginBottom: '2rem',
+                }}
+            >
+                <Title level={2} style={{ marginTop: '6rem' }}>
+                    {' '}
+                    Upload Travel Product
+                </Title>
             </div>
 
             <Form onSubmit={onSubmit}>
@@ -109,7 +117,8 @@ function UploadProductPage(props) {
                 <br />
                 <select
                     onChange={onContinentsSelectChange}
-                    value={ContinentValue}>
+                    value={ContinentValue}
+                >
                     {Continents.map(item => (
                         <option key={item.key} value={item.key}>
                             {item.value}{' '}

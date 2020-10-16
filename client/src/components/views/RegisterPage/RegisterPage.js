@@ -99,7 +99,7 @@ function RegisterPage(props) {
                 } = props;
                 return (
                     <div className="register-container" style={style.app}>
-                        <h2 style={{ color: 'white' }}>Sign up</h2>
+                        <h2 style={{ textColor: 'white' }}>Sign up</h2>
                         <div
                             style={{
                                 position: 'absolute',

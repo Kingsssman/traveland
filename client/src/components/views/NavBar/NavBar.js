@@ -20,9 +20,12 @@ function NavBar() {
             className="menu"
             style={{
                 position: 'fixed',
+                top: 0,
+                left: 0,
                 zIndex: 5,
                 width: '100%',
-            }}>
+            }}
+        >
             <div className="menu__logo">
                 <a href="/">TRAVELAND</a>
             </div>
@@ -33,7 +36,8 @@ function NavBar() {
                 <Button
                     className="menu__mobile-button"
                     type="primary"
-                    onClick={showDrawer}>
+                    onClick={showDrawer}
+                >
                     <Icon type="align-right" />
                 </Button>
                 <Drawer
@@ -41,7 +45,8 @@ function NavBar() {
                     className="menu_drawer"
                     closable={false}
                     onClose={onClose}
-                    visible={visible}>
+                    visible={visible}
+                >
                     <LeftMenu mode="inline" />
                     <RightMenu mode="inline" />
                 </Drawer>
