@@ -31,11 +31,15 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 ✅ 2. User can add own Tour Product (fill with title, image, description, price, country)
 
-3. Ability to view all available Tour Products for Unregistered Users
+✅ 3. Ability to view all available Tour Products for Unregistered Users
 
-4. Get Detailed info about Tour Product
+✅ 4. Search available Tour Product for Unregistered Users
 
-5. Ability to buy Tour Product (only for registered users)
+✅ 5. Filter Tour Product by Price and Locatiob for Unregistered Users
+
+6. Get Detailed info about Tour Product
+
+7. Ability to buy Tour Product (only for registered users)
 
 ## Functional Requirements
 
