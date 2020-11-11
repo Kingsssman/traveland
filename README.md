@@ -17,6 +17,14 @@ Developed by Evgeniy Davydovskiy 722401
 
 Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Travel Platform Website.
 
+## Preview
+
+Main page
+![](preview/main.png)
+
+Login screen
+![](preview/login.png)
+
 ## Glossary:
 
 -   Application User (User)
@@ -37,9 +45,9 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 ✅ 5. Filter Tour Product by Price and Location for Unregistered Users
 
-6. Get Detailed info about Tour Product
+✅ 6. Get Detailed info about Tour Product
 
-7. Ability to buy Tour Product
+✅ 7. Ability to buy Tour Product
 
 ## Functional Requirements
 
@@ -89,14 +97,3 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 -   https://reactjs.org/docs/
 
 -   https://www.mongodb.com/docs
-
-## Preview
-
-Main page
-![](preview/main.png)
-
-Login screen
-![](preview/login.png)
-
-Register screen
-![](preview/register.png)
