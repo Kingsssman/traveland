@@ -15,5 +15,5 @@ yarn-error.log*
 
 # # Images from uploads
 
-# uploads/*.jpg
+uploads/*.jpg
 # uploads/*.img
