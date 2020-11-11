@@ -89,3 +89,14 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 -   https://reactjs.org/docs/
 
 -   https://www.mongodb.com/docs
+
+## Preview
+
+Main page
+![](preview/main.png)
+
+Login screen
+![](preview/login.png)
+
+Register screen
+![](preview/register.png)
