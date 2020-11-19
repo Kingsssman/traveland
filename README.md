@@ -1,4 +1,4 @@
-Developed by Evgeniy Davydovskiy 722401
+Developed by Evgeniy Davydovskiy
 
 # Traveland
 
