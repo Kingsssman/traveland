@@ -146,3 +146,16 @@ html::-webkit-scrollbar-track {
         #100e17
     );
 }
+
+.image-gallery-thumbnail-image {
+    display: none;
+}
+
+.image-gallery-image {
+    width: 100%;
+    height: 500px;
+}
+
+.image-gallery button {
+    display: none;
+}
