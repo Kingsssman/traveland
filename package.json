@@ -1,7 +1,7 @@
 {
-    "name": "react-boiler-plate",
+    "name": "react-traveland",
     "version": "1.0.0",
-    "description": "react boiler plate",
+    "description": "react-traveland",
     "main": "index.js",
     "engine": {
         "node": "10.16.0",
@@ -13,9 +13,10 @@
         "frontend": "npm run start --prefix client",
         "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
     },
-    "author": "John ahn",
-    "license": "ISC",
+    "author": "",
+    "license": "",
     "dependencies": {
+        "async": "^3.2.0",
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.18.3",
         "cookie-parser": "^1.4.3",

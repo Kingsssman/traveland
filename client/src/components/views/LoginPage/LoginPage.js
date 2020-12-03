@@ -86,7 +86,8 @@ function LoginPage(props) {
                         });
                     setSubmitting(false);
                 }, 500);
-            }}>
+            }}
+        >
             {props => {
                 const {
                     values,
@@ -110,13 +111,15 @@ function LoginPage(props) {
                                 height: '500px',
                                 width: '400px',
                                 background: 'rgba(0, 0, 0, 0.452)',
-                            }}></div>
+                            }}
+                        ></div>
                         <Title level={2} style={{ color: 'white' }}>
                             Log In
                         </Title>
                         <form
                             onSubmit={handleSubmit}
-                            style={{ width: '350px' }}>
+                            style={{ width: '350px' }}
+                        >
                             <Form.Item required>
                                 <Input
                                     id="email"
@@ -180,13 +183,21 @@ function LoginPage(props) {
                                             border: '1px solid',
                                             padding: '1rem',
                                             borderRadius: '10px',
-                                        }}>
+                                        }}
+                                    >
                                         {formErrorMessage}
                                     </p>
                                 </label>
                             )}
 
                             <Form.Item>
+                                <Checkbox
+                                    id="rememberMe"
+                                    onChange={handleRememberMe}
+                                    checked={rememberMe}
+                                >
+                                    Remember me
+                                </Checkbox>
                                 <div>
                                     <Button
                                         type="primary"
@@ -199,10 +210,12 @@ function LoginPage(props) {
                                             color: 'black',
                                         }}
                                         disabled={isSubmitting}
-                                        onSubmit={handleSubmit}>
+                                        onSubmit={handleSubmit}
+                                    >
                                         Log in
                                     </Button>
                                 </div>
+                                Or <a href="/register">register now!</a>
                             </Form.Item>
                         </form>
                     </div>

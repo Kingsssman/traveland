@@ -5,7 +5,6 @@ import ProductImage from './Sections/ProductImage';
 import ProductInfo from './Sections/ProductInfo';
 import { addToCart } from '../../../_actions/user_actions';
 import { useDispatch } from 'react-redux';
-
 function DetailProductPage(props) {
     const dispatch = useDispatch();
     const productId = props.match.params.productId;
@@ -26,11 +25,7 @@ function DetailProductPage(props) {
     return (
         <div
             className="postPage"
-            style={{
-                width: '100%',
-                padding: ' 0 4rem',
-                paddingTop: '8rem',
-            }}
+            style={{ width: '100%', padding: '3rem 4rem' }}
         >
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <h1>{Product.title}</h1>
@@ -42,13 +37,7 @@ function DetailProductPage(props) {
                 <Col lg={12} xs={24}>
                     <ProductImage detail={Product} />
                 </Col>
-                <Col
-                    lg={12}
-                    xs={24}
-                    style={{
-                        fontSize: '22px',
-                    }}
-                >
+                <Col lg={12} xs={24}>
                     <ProductInfo
                         addToCart={addToCartHandler}
                         detail={Product}

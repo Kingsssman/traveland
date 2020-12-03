@@ -42,7 +42,7 @@ function ProductInfo(props) {
                     type="danger"
                     onClick={addToCarthandler}
                 >
-                    Buy Now
+                    Add to Cart
                 </Button>
             </div>
         </div>

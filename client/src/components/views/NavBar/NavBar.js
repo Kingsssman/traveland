@@ -30,6 +30,9 @@ function NavBar() {
                 <a href="/">TRAVELAND</a>
             </div>
             <div className="menu__container">
+                <div className="menu_left">
+                    <LeftMenu mode="horizontal" />
+                </div>
                 <div className="menu_rigth">
                     <RightMenu mode="horizontal" />
                 </div>
@@ -41,6 +44,7 @@ function NavBar() {
                     <Icon type="align-right" />
                 </Button>
                 <Drawer
+                    title="Basic Drawer"
                     placement="right"
                     className="menu_drawer"
                     closable={false}
