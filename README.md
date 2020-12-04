@@ -19,6 +19,18 @@ Travel Platform Website is a FullStack Web Platform using MERN Stack (Mongo, Exp
 
 ## Preview
 
+![alt](./preview/main.png)
+
+![alt](./preview/2-png.png)
+
+![alt](./preview/paypal.png)
+
+![alt](./preview/history.png)
+
+![alt](./preview/login.png)
+
+![alt](./preview/register.png)
+
 ## Glossary:
 
 -   Application User (User)
@@ -41,7 +53,7 @@ Travel Platform Website is a FullStack Web Platform using MERN Stack (Mongo, Exp
 
 ✅ 6. Get Detailed info about Tour Product
 
-✅ 7. Ability to buy Tour Product
+✅ 7. Ability to buy Tour Product (PayPal Integration)
 
 ## Functional Requirements
 
