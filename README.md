@@ -3,7 +3,7 @@ Developed by Evgeniy Davydovskiy
 # Traveland
 
 ![](https://img.shields.io/badge/progress-developing-green)
-![](https://img.shields.io/badge/version-0.0-green)
+![](https://img.shields.io/badge/version-1.0-green)
 
 ![](https://img.shields.io/badge/language-JavaScript-yellow)
 ![](https://img.shields.io/badge/version-ES6+-yellow)
