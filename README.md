@@ -31,6 +31,12 @@ Travel Platform Website is a FullStack Web Platform using MERN Stack (Mongo, Exp
 
 ![alt](./preview/register.png)
 
+![alt](./preview/page.png)
+
+![alt](./preview/filters.png)
+
+![alt](./preview/upload.png)
+
 ## Glossary:
 
 -   Application User (User)
