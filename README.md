@@ -15,7 +15,7 @@ Developed by Evgeniy Davydovskiy
 ![](https://img.shields.io/badge/Express-js-orange)
 ![](https://img.shields.io/badge/Mongo-DB-green)
 
-Travel Platform Website is a FullStack Web Platform using MERN Stack (Mongo, Express, React, Node).
+Travel Platform Website is a FullStack Web Platform using MERN Stack (Mongo, Express, React, Redux, Node).
 
 ## Preview
 
