@@ -15,7 +15,7 @@ Developed by Evgeniy Davydovskiy
 ![](https://img.shields.io/badge/Express-js-orange)
 ![](https://img.shields.io/badge/Mongo-DB-green)
 
-Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Travel Platform Website.
+Travel Platform Website is a FullStack Web Platform using MERN Stack (Mongo, Express, React, Node).
 
 ## Preview
 
