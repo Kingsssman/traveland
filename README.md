@@ -19,12 +19,6 @@ Traveland Project using MERN Stack (Mongo, Express, React, Node). This is a Trav
 
 ## Preview
 
-Main page
-![](preview/main.png)
-
-Login screen
-![](preview/login.png)
-
 ## Glossary:
 
 -   Application User (User)
