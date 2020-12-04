@@ -5,7 +5,8 @@ import * as Yup from 'yup';
 import { registerUser } from '../../../_actions/user_actions';
 import { useDispatch } from 'react-redux';
 
-import { Form, Input, Button } from 'antd';
+import { Form, Input, Button, Typography } from 'antd';
+const { Title } = Typography;
 
 const style = {
     app: {
@@ -84,7 +85,8 @@ function RegisterPage(props) {
 
                     setSubmitting(false);
                 }, 500);
-            }}>
+            }}
+        >
             {props => {
                 const {
                     values,
@@ -99,7 +101,9 @@ function RegisterPage(props) {
                 } = props;
                 return (
                     <div className="register-container" style={style.app}>
-                        <h2 style={{ textColor: 'white' }}>Sign up</h2>
+                        <Title level={1} style={{ color: 'white' }}>
+                            Sign Up
+                        </Title>
                         <div
                             style={{
                                 position: 'absolute',
@@ -109,12 +113,19 @@ function RegisterPage(props) {
                                 height: '500px',
                                 width: '400px',
                                 background: 'rgba(0, 0, 0, 0.452)',
-                            }}></div>
+                                zIndex: '-1',
+                            }}
+                        ></div>
                         <Form
                             style={{ minWidth: '375px' }}
                             {...formItemLayout}
-                            onSubmit={handleSubmit}>
-                            <Form.Item required label="Name">
+                            onSubmit={handleSubmit}
+                        >
+                            <Form.Item
+                                required
+                                label="Name"
+                                style={{ color: 'white' }}
+                            >
                                 <Input
                                     id="name"
                                     placeholder="Enter your name"
@@ -164,7 +175,8 @@ function RegisterPage(props) {
                                     errors.email && touched.email
                                         ? 'error'
                                         : 'success'
-                                }>
+                                }
+                            >
                                 <Input
                                     id="email"
                                     placeholder="Enter your Email"
@@ -193,7 +205,8 @@ function RegisterPage(props) {
                                     errors.password && touched.password
                                         ? 'error'
                                         : 'success'
-                                }>
+                                }
+                            >
                                 <Input
                                     id="password"
                                     placeholder="Enter your password"
@@ -243,12 +256,13 @@ function RegisterPage(props) {
                                     type="primary"
                                     disabled={isSubmitting}
                                     style={{
-                                        backgroundColor: '#ffeb3b',
+                                        backgroundColor: 'var(--main-color)',
                                         border: 'none',
                                         color: 'black',
                                         width: '100%',
-                                    }}>
-                                    Submit
+                                    }}
+                                >
+                                    Sign Up
                                 </Button>
                             </Form.Item>
                         </Form>

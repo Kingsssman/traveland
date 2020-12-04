@@ -1,0 +1,18 @@
+.load-btn {
+    background-color: var(--main-color);
+    font: inherit;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.load-btn:focus {
+    outline: none;
+}

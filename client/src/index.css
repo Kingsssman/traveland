@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
 @import '~react-image-gallery/styles/css/image-gallery.css';
+
+:root {
+    --main-color: #fbc638;
+}
 
 body {
     margin: 0;
@@ -57,6 +62,20 @@ input.error {
     text-align: center;
 }
 
+.start-title {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: black;
+    background: var(--main-color);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .filter-box,
 .search-box {
     position: absolute;
@@ -81,7 +100,7 @@ input.error {
 .filter-btn,
 .search-btn {
     height: 50px;
-    background: #ffeb3b;
+    background: var(--main-color);
     border: none;
     color: #000;
     border-radius: 25px;
@@ -100,7 +119,7 @@ input.error {
 }
 
 .search-box {
-    top: 18%;
+    top: 78%;
 }
 
 .login-container {
@@ -117,47 +136,13 @@ input.error {
     background-position: center;
 }
 
-/* Sets the dimensions of the entire scrollbar */
-html::-webkit-scrollbar {
-    width: 15px;
-    height: 15px;
+#root
+    > div:nth-child(2)
+    > div
+    > form
+    > div
+    > div.ant-col.ant-form-item-label.ant-col-xs-24.ant-col-sm-8
+    > label {
+    color: white;
+    font-size: larger;
 }
-
-/* The grabbable scrollbar button  */
-html::-webkit-scrollbar-thumb {
-    background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#ff8a00),
-        to(#e52e71)
-    );
-    background: linear-gradient(180deg, #ff8a00, #e52e71);
-    border-radius: 30px;
-    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
-        inset -2px -2px 2px rgba(0, 0, 0, 0.25);
-}
-
-/* The vertical scrollbar background */
-html::-webkit-scrollbar-track {
-    background: linear-gradient(
-        90deg,
-        #201c29,
-        #201c29 1px,
-        #100e17 0,
-        #100e17
-    );
-}
-
-/* .image-gallery-thumbnail-image {
-    display: none;
-}
-
-.image-gallery-image {
-    width: 100%;
-    height: 500px;
-}
-
-.image-gallery button {
-    display: none;
-} */

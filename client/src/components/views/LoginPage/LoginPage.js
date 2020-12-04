@@ -111,10 +111,11 @@ function LoginPage(props) {
                                 height: '500px',
                                 width: '400px',
                                 background: 'rgba(0, 0, 0, 0.452)',
+                                zIndex: '-1',
                             }}
                         ></div>
-                        <Title level={2} style={{ color: 'white' }}>
-                            Log In
+                        <Title level={1} style={{ color: 'white' }}>
+                            Sign In
                         </Title>
                         <form
                             onSubmit={handleSubmit}
@@ -195,6 +196,7 @@ function LoginPage(props) {
                                     id="rememberMe"
                                     onChange={handleRememberMe}
                                     checked={rememberMe}
+                                    style={{ color: 'white', fontSize: '18px' }}
                                 >
                                     Remember me
                                 </Checkbox>
@@ -205,7 +207,8 @@ function LoginPage(props) {
                                         className="login-form-button"
                                         style={{
                                             minWidth: '100%',
-                                            backgroundColor: '#ffeb3b',
+                                            backgroundColor:
+                                                'var(--main-color)',
                                             border: 'none',
                                             color: 'black',
                                         }}
@@ -215,7 +218,6 @@ function LoginPage(props) {
                                         Log in
                                     </Button>
                                 </div>
-                                Or <a href="/register">register now!</a>
                             </Form.Item>
                         </form>
                     </div>

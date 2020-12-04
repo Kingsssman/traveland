@@ -6,6 +6,7 @@ import CheckBox from './Sections/CheckBox';
 import RadioBox from './Sections/RadioBox';
 import { continents, price } from './Sections/Datas';
 import SearchFeature from './Sections/SearchFeature';
+import './LandingPage.css';
 
 const { Meta } = Card;
 
@@ -45,7 +46,8 @@ function LandingPage() {
         });
     };
 
-    const onLoadMore = () => {
+    const onLoadMore = e => {
+        e.preventDefault();
         let skip = Skip + Limit;
 
         const variables = {
@@ -138,19 +140,22 @@ function LandingPage() {
             <section id="tours-overview">
                 <h1>Top Travel Tours For you</h1>
                 <SearchFeature refreshFunction={updateSearchTerms} />
-                <form className="filter-box">
+                {/* <form className="filter-box">
                     <input
                         type="text"
                         className="filter-field location"
                         placeholder="Location"
                     ></input>
                     <button className="filter-btn">Filter</button>
-                </form>
+                </form> */}
             </section>
 
             <div style={{ width: '75%', margin: '1rem auto' }}>
                 <div style={{ textAlign: 'center' }}>
-                    <h2> Start's Journey Right Now</h2>
+                    <h2 className="start-title">
+                        {' '}
+                        Start your Journey Right Now
+                    </h2>
                     <br />
                 </div>
 
@@ -195,7 +200,9 @@ function LandingPage() {
                 <br />
                 {PostSize >= Limit && (
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <button onClick={onLoadMore}>Load More</button>
+                        <button class="load-btn" onClick={onLoadMore}>
+                            Load More
+                        </button>
                     </div>
                 )}
             </div>
