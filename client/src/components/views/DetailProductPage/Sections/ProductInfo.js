@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Descriptions } from 'antd';
+import { Button, Col, Descriptions } from 'antd';
 
 function ProductInfo(props) {
     const [Product, setProduct] = useState({});
@@ -35,8 +35,19 @@ function ProductInfo(props) {
             <br />
             <br />
             <br />
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div
+                style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                }}
+            >
                 <Button
+                    style={{
+                        background: 'var(--main-color)',
+                        borderColor: 'var(--main-color)',
+                        fontWeight: 'bold',
+                        letterSpacing: '2px',
+                    }}
                     size="large"
                     shape="round"
                     type="danger"

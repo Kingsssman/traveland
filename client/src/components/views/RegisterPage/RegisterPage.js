@@ -104,18 +104,7 @@ function RegisterPage(props) {
                         <Title level={1} style={{ color: 'white' }}>
                             Sign Up
                         </Title>
-                        <div
-                            style={{
-                                position: 'absolute',
-                                top: '50%',
-                                left: '50%',
-                                transform: 'translate(-50%, -50%)',
-                                height: '500px',
-                                width: '400px',
-                                background: 'rgba(0, 0, 0, 0.452)',
-                                zIndex: '-1',
-                            }}
-                        ></div>
+                        
                         <Form
                             style={{ minWidth: '375px' }}
                             {...formItemLayout}

@@ -39,7 +39,7 @@ input.error {
 }
 
 #tours-overview {
-    background: url(../src/assets/1-img.jpg);
+    background: url(../src/assets/1-img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,14 +123,14 @@ input.error {
 }
 
 .login-container {
-    background: url(../src/assets/2-img.jpg);
+    background: url(../src/assets/1-img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .register-container {
-    background: url(../src/assets/2-img.jpg);
+    background: url(../src/assets/1-img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

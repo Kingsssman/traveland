@@ -187,6 +187,7 @@ function LandingPage() {
                             height: '300px',
                             justifyContent: 'center',
                             alignItems: 'center',
+                            marginTop: '3rem',
                         }}
                     >
                         <h2>No Travel Tours Now ...</h2>

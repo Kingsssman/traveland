@@ -1,5 +1,4 @@
 .main-footer {
-    margin-top: 2rem;
     background: black;
     padding: 3rem;
 }
@@ -10,6 +9,7 @@
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .main-footer__link {

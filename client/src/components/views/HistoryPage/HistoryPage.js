@@ -2,7 +2,7 @@ import React from 'react';
 
 function HistoryPage(props) {
     return (
-        <div style={{ width: '80%', margin: '3rem auto' }}>
+        <div style={{ width: '80%', margin: '3rem auto', padding: '3rem' }}>
             <div style={{ textAlign: 'center' }}>
                 <h1>History</h1>
             </div>

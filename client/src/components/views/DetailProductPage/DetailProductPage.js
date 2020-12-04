@@ -19,13 +19,17 @@ function DetailProductPage(props) {
     }, []);
 
     const addToCartHandler = productId => {
-        dispatch(addToCart(productId));
+        if (!props.user.userData.isAuth) {
+            window.location.pathname = '/login';
+        } else {
+            dispatch(addToCart(productId));
+        }
     };
 
     return (
         <div
             className="postPage"
-            style={{ width: '100%', padding: '3rem 4rem' }}
+            style={{ width: '100%', padding: '5rem 4rem' }}
         >
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <h1>{Product.title}</h1>

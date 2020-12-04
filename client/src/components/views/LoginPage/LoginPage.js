@@ -102,18 +102,7 @@ function LoginPage(props) {
                 } = props;
                 return (
                     <div className="login-container" style={style.app}>
-                        <div
-                            style={{
-                                position: 'absolute',
-                                top: '50%',
-                                left: '50%',
-                                transform: 'translate(-50%, -50%)',
-                                height: '500px',
-                                width: '400px',
-                                background: 'rgba(0, 0, 0, 0.452)',
-                                zIndex: '-1',
-                            }}
-                        ></div>
+                        <div></div>
                         <Title level={1} style={{ color: 'white' }}>
                             Sign In
                         </Title>
